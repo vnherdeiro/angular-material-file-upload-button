@@ -1,0 +1,6 @@
+<div>
+    <button class='btn' mat-stroked-button color="primary" (click)='fileinput.click()'>
+        <mat-icon>attach_file</mat-icon>
+    </button>
+    <input #fileinput hidden type='file' (change)='onFileInput($event)'>
+</div>
